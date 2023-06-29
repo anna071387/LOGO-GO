@@ -11,7 +11,7 @@ This is a "prompt-response" simple logo generator of an SVG file with text insid
 
 ## Usage
 
-This quick logo generator helps to create a simple shape logo with identified text by a user
+This quick logo generator helps to create a simple shape logo with identified text by a user.
 It generates a prompt response questions for a survey of needs. 
 
 ## Features
