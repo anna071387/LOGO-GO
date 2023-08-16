@@ -13,6 +13,7 @@ const writeFileAsync = promisify(writeFile);
 function userPrompt() {
   return prompt(questions);
 }
+
   async function init() {
   try {
     const response = await userPrompt();
@@ -20,14 +21,14 @@ function userPrompt() {
 
   var shape;
     if (response.shapes == "Circle") {
-         shape= new Circle(response.contents, response.color, response.text)
+         shape = new Circle(response.contents, response.color, response.text)
     
-    } else if (response.shape == "Triangle") {
+    } else if (response.shapes == "Triangle") {
       // myCar = new Car("Ford");
-      shape= new Triangle(response.contents, response.color, response.text);
+      shape = new Triangle(response.contents, response.color, response.text);
     } else 
        {
-      shape= new Square(response.contents, response.color, response.text);
+      shape = new Square(response.contents, response.color, response.text);
     }
   
 
