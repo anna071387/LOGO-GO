@@ -1,7 +1,7 @@
 # LOGO-GO
-![alt text](./images/Circle_logo.png)
-![alt text](./images/Square_logo.png)
-![alt text](./images/Triangle_logo.png)
+![alt text](./images/Logo1.svg)
+![alt text](./images/Logo2.svg)
+![alt text](./images/Logo3.svg)
 
 https://github.com/anna071387/LOGO-GO
 
@@ -17,7 +17,7 @@ It generates a prompt response questions for a survey of needs.
 ## Features
 
 
-Creates a shape defined by a use: circle, square or triangle and inputs a text logo on the inside.
+Creates a shape defined by a user: circle, square or triangle and inputs a text logo on the inside.
 
 
 
